@@ -1,4 +1,11 @@
-/* body{
-    margin: 0;
-    font-family: sans-serif;
-} */
+body{
+    display: grid;
+    grid-template-columns: 0.6fr 2.8fr 0.6fr;
+    grid-template-rows: 10% 80% 10%;
+    /* margin: 0; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
